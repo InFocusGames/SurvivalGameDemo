@@ -51,10 +51,15 @@ The Survival Game is an open-source experimental economic game, run on oTree. Th
 The following game parameters can be edited before beginning an oTree session (default values used for demos).
 
 ```
-NOTE: Default parameters are loosely based on the original model of need-based transfers, Aktipis, C. A., Cronk, L., & de Aguiar, R. (2011). Risk-pooling and herd survival: an agent-based model of a Maasai gift-giving system. Human Ecology, 39(2), 131-140. Locally-run demo versions of the game will automatically use default parameters.
+NOTE: Default parameters are loosely based on the original model of need-based transfers,
+Aktipis, C. A., Cronk, L., & de Aguiar, R. (2011). Risk-pooling and herd survival: an agent-
+based model of a Maasai gift-giving system. Human Ecology, 39(2), 131-140. Locally-run demo 
+versions of the game will automatically use default parameters.
 ```
 ```
-NOTE2: 'Number of players per group' & 'number of rounds' are hard-coded "constants" in oTree, and so they cannot be edited as simply as the parameters below. In this demo, they are set to 2 and 10, respectively. To edit them, you will need to edit the code for the game directly:
+NOTE2: 'Number of players per group' & 'number of rounds' are hard-coded "constants" in oTree, 
+and so they cannot be edited as simply as the parameters below. In this demo, they are set to 2 
+and 10, respectively. To edit them, you will need to edit the code for the game directly:
 
    1. Go to SurvivalGame -> models.py
       - Edit "players_per_group" in Constants class
@@ -90,7 +95,8 @@ NOTE2: 'Number of players per group' & 'number of rounds' are hard-coded "consta
 ## Dependent variables
 
 ```
-NOTE: These are calculated for each player after they complete the game. The values are saved in the final round data.
+NOTE: These are calculated for each player after they complete the game. 
+The values are saved in the final round data.
 ```
 
 | Dependent Variable                              | Description                                                  |
