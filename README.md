@@ -14,18 +14,20 @@ The Survival Game is an open-source experimental economic game, run on oTree. Th
 
 ## How to run the game
 
-1) Install oTree.
+1) Download this repository to your computer.
+
+2) Install oTree.
 
 - Visit http://otree.readthedocs.io/en/latest/install.html to learn how to install oTree. You may also need to install a recent version of Python. **IMPORTANT NOTE: This game will not work in oTree 2.0 or above.**
 
-2) Run oTree in your computer's command line.
+3) Run oTree in your computer's command line.
 
 - Use ```cd``` in the command line to set the working directory as the folder this README.md is saved in.
 - Run ```otree resetdb``` to reset the database.
-- Run ```otree runserver``` to run a local server, in which you can demo the game locally.
+- Run ```otree runserver``` to run a local server, on which you can demo the game locally.
 - Access http://127.0.0.1:8000/demo/ to demo the game locally when the server is running.
 
-3) To run an actual experiment, you will need to push the game online, rather than using the local server.
+4) To run an actual experiment, you will need to push the game online, rather than using the local server.
 
 - The oTree docs give all the information on how to use Heroku (or other platforms) to push games
   online and run experiments.
