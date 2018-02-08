@@ -324,6 +324,9 @@ class EndExperiment(Page):
     def is_displayed(self):
         return self.subsession.round_number == Constants.num_rounds
 
+    def before_next_page(self):
+        self.player.set_payoff_and_dvs(
+
 
 page_sequence = [
     CreateGroupWait,
