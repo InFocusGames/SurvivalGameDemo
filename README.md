@@ -10,6 +10,8 @@ Please contact me if there are any issues.
 
 The Survival Game is an open-source experimental economic game, run on oTree. The game simulates the life of a Maasai pastoralist herder. In a live interaction, pairs of individuals manage herds of cattle. Their herds grow over time, but are also subject to unpredictable disasters, potentially reducing their herd size below a minimum ‘survival threshold’. Individuals must request help from their partner to survive.
 
+Click [here](https://survivalgame-demo.herokuapp.com/demo/){:target="_blank"} to play a demo version of the Survival Game.
+
 <br>
 
 ## How to run the game
